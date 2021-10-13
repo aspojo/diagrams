@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T02:24:40.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.2.9" etag="nw1UotW_x0FDIu-2XZkQ" type="github"><diagram id="i-3Xs8DJ4sU-Jeg-fqRU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-13T02:36:11.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Dy1CLrjBRR8aoGXBcz8e" version="15.2.9" type="github">
+  <diagram id="i-3Xs8DJ4sU-Jeg-fqRU" name="Page-1">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-18" target="ZznqB9_aIx1xwR7HK3wh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-3" target="ZznqB9_aIx1xwR7HK3wh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="330" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-5" value="SSO单点登录&lt;br&gt;认证服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-10">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-8" value="域名：sso.domain.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-10">
+          <mxGeometry width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="344" y="60" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-1" value="应用服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-11">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-7" value="域名：aap.domain.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-11">
+          <mxGeometry width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="470" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-3" value="浏览器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-12">
+          <mxGeometry x="95" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-9" value="cookie：token=userLoginId12345" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZznqB9_aIx1xwR7HK3wh-12">
+          <mxGeometry y="90" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-13" target="ZznqB9_aIx1xwR7HK3wh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZznqB9_aIx1xwR7HK3wh-16">
+          <mxGeometry x="-0.1921" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-13" target="ZznqB9_aIx1xwR7HK3wh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZznqB9_aIx1xwR7HK3wh-19">
+          <mxGeometry x="-0.1249" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-13" value="是否存在cookie：token" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-1" target="ZznqB9_aIx1xwR7HK3wh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-15" target="ZznqB9_aIx1xwR7HK3wh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-15" value="身份验证通过" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-18" value="重定向到sso服务器，并带上回调地址" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-21" target="ZznqB9_aIx1xwR7HK3wh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-21" value="用户在SSO返回的登录页面进行登录认证，登录成功后，向浏览器设置cookie：token=userLoginId12345 domain=.domain.com" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="500" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZznqB9_aIx1xwR7HK3wh-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZznqB9_aIx1xwR7HK3wh-5" target="ZznqB9_aIx1xwR7HK3wh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
