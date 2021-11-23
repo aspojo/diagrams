@@ -1,17 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T03:03:57.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="fhHc79fyW29bAyEpxcYJ" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-23T03:27:44.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="DFHlE5mrFR5vjZfUZo-2" version="15.5.2" type="github" pages="4">
   <diagram id="jLa3jzCbuuamsw_ghgtM" name="主业务逻辑">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uejNF2khlq3OLj7UzS38-0" />
         <mxCell id="uejNF2khlq3OLj7UzS38-1" parent="uejNF2khlq3OLj7UzS38-0" />
+        <mxCell id="uejNF2khlq3OLj7UzS38-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-2" target="uejNF2khlq3OLj7UzS38-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uejNF2khlq3OLj7UzS38-2" value="主动发退：&lt;br&gt;来自任务域&lt;br&gt;TaskController::&lt;br&gt;callbackTaskMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
-          <mxGeometry x="110" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-3" target="uejNF2khlq3OLj7UzS38-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uejNF2khlq3OLj7UzS38-3" value="店间调拨：&lt;br&gt;rabbitMQ消息&lt;br&gt;rabbitMessageService::&lt;br&gt;processTranStoreItems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
-          <mxGeometry x="260" y="110" width="154" height="60" as="geometry" />
+          <mxGeometry x="270" y="230" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-4" target="uejNF2khlq3OLj7UzS38-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uejNF2khlq3OLj7UzS38-4" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;其它业务类型：&lt;br&gt;商采下发&lt;br&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SupplierController::&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;recptSupplierCenterInfo&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
-          <mxGeometry x="490" y="110" width="170" height="60" as="geometry" />
+          <mxGeometry x="470" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-5" target="uejNF2khlq3OLj7UzS38-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-5" value="产单" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
+          <mxGeometry x="237" y="370" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-6" target="uejNF2khlq3OLj7UzS38-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-6" target="uejNF2khlq3OLj7UzS38-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-6" target="uejNF2khlq3OLj7UzS38-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-6" value="退货需求" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
+          <mxGeometry x="313" y="60" width="68" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="uejNF2khlq3OLj7UzS38-1" source="uejNF2khlq3OLj7UzS38-13" target="uejNF2khlq3OLj7UzS38-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-13" value="拣货的同时产单" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
+          <mxGeometry x="100" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uejNF2khlq3OLj7UzS38-15" value="拣货、封箱、封板&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;来自任务域&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;TaskController::&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;callbackTaskMessage&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="uejNF2khlq3OLj7UzS38-1">
+          <mxGeometry x="271" y="525" width="153" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
