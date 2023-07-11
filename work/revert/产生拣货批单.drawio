@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T03:11:25.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZRUvxxZN6WV3Nyy14JO7" version="21.5.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-11T03:12:27.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fBEUYeqxyyWr6kMsqQvv" version="21.5.2" type="github" pages="7">
   <diagram id="jLa3jzCbuuamsw_ghgtM" name="主业务逻辑">
     <mxGraphModel dx="1434" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -935,7 +935,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FNZKw_DwyFu-x9Xv5qOp" name="需求状态">
-    <mxGraphModel dx="320" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-110" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1241,9 +1241,9 @@
         <mxCell id="ksrbVmXfot2V3uNTV8RH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ksrbVmXfot2V3uNTV8RH-1" target="7enXJqfZXTjVx0_MFdiu-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ksrbVmXfot2V3uNTV8RH-6" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ksrbVmXfot2V3uNTV8RH-5">
+        <mxCell id="ksrbVmXfot2V3uNTV8RH-6" value="是（主动发退，拣货任务生成是就是已完成）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ksrbVmXfot2V3uNTV8RH-5">
           <mxGeometry x="-0.163" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ksrbVmXfot2V3uNTV8RH-1" value="存在未完成的&lt;br&gt;拣货作业批单？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
