@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T05:43:43.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kvgNZDvXob0kFQGFPD3X" version="24.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-19T05:45:33.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tTfzZM3TOHFS6w0V29i6" version="24.7.1" type="github" pages="2">
   <diagram name="git分支使用规范" id="rskQGRMWnrVDxciy7Viz">
-    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="04cMS3mD9hzl0nyuChfc-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="04cMS3mD9hzl0nyuChfc-1" value="需求开发流程" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="20" y="20" width="720" height="440" as="geometry" />
         </mxCell>
         <mxCell id="04cMS3mD9hzl0nyuChfc-2" value="master" style="swimlane;html=1;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="04cMS3mD9hzl0nyuChfc-1">
@@ -120,7 +120,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04cMS3mD9hzl0nyuChfc-33" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="04cMS3mD9hzl0nyuChfc-33" value="bug修复流程" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="20" y="500" width="720" height="440" as="geometry" />
         </mxCell>
         <mxCell id="04cMS3mD9hzl0nyuChfc-34" value="master" style="swimlane;html=1;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="04cMS3mD9hzl0nyuChfc-33">
