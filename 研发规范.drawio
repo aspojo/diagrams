@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T09:44:13.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qKqx0BJJx-2gwb0SJx3O" version="24.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-24T09:09:15.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="poJdMYF-wN6kfDU_t9R1" version="24.7.1" type="github" pages="4">
   <diagram name="git分支使用规范" id="rskQGRMWnrVDxciy7Viz">
-    <mxGraphModel dx="819" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,13 +39,13 @@
         <mxCell id="04cMS3mD9hzl0nyuChfc-11" value="最新代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#000000;align=center;" parent="04cMS3mD9hzl0nyuChfc-2" vertex="1">
           <mxGeometry x="240" y="30" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="04cMS3mD9hzl0nyuChfc-12" value="dev" style="swimlane;html=1;startSize=20;horizontal=0;fontSize=16;" parent="04cMS3mD9hzl0nyuChfc-1" vertex="1">
+        <mxCell id="04cMS3mD9hzl0nyuChfc-12" value="develop" style="swimlane;html=1;startSize=20;horizontal=0;fontSize=16;" parent="04cMS3mD9hzl0nyuChfc-1" vertex="1">
           <mxGeometry x="20" y="120" width="700" height="100" as="geometry" />
         </mxCell>
         <mxCell id="04cMS3mD9hzl0nyuChfc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="04cMS3mD9hzl0nyuChfc-12" source="04cMS3mD9hzl0nyuChfc-14" target="04cMS3mD9hzl0nyuChfc-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04cMS3mD9hzl0nyuChfc-14" value="dev-v1.0.1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#000000;align=center;" parent="04cMS3mD9hzl0nyuChfc-12" vertex="1">
+        <mxCell id="04cMS3mD9hzl0nyuChfc-14" value="develop-v1.0.1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#000000;align=center;" parent="04cMS3mD9hzl0nyuChfc-12" vertex="1">
           <mxGeometry x="130" y="30" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="04cMS3mD9hzl0nyuChfc-15" value="开发完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#000000;align=center;" parent="04cMS3mD9hzl0nyuChfc-12" vertex="1">
