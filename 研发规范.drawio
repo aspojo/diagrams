@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.7.4" pages="4">
   <diagram name="git分支使用规范" id="rskQGRMWnrVDxciy7Viz">
-    <mxGraphModel dx="1195" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
             <mxPoint x="440" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04cMS3mD9hzl0nyuChfc-28" value="创建或合并到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="04cMS3mD9hzl0nyuChfc-27" connectable="0" vertex="1">
+        <mxCell id="04cMS3mD9hzl0nyuChfc-28" value="合并到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="04cMS3mD9hzl0nyuChfc-27" connectable="0" vertex="1">
           <mxGeometry x="0.2255" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
@@ -306,7 +306,7 @@
             <mxPoint x="440" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0sexW5r8pKoeQbQU0YzO-54" value="创建或合并到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" connectable="0" vertex="1" parent="0sexW5r8pKoeQbQU0YzO-53">
+        <mxCell id="0sexW5r8pKoeQbQU0YzO-54" value="合并到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" connectable="0" vertex="1" parent="0sexW5r8pKoeQbQU0YzO-53">
           <mxGeometry x="0.2255" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
