@@ -1,63 +1,71 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.7.7">
-  <diagram name="第 1 页" id="WI7_qm0P-F8l_A7cruBE">
-    <mxGraphModel dx="683" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="2">
+  <diagram name="施工调度主流程" id="WI7_qm0P-F8l_A7cruBE">
+    <mxGraphModel dx="977" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-6" target="JRAGMGcHB1foBFWkhMCB-2">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-6" target="JRAGMGcHB1foBFWkhMCB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-1" target="JRAGMGcHB1foBFWkhMCB-11">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-1" target="JRAGMGcHB1foBFWkhMCB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-1" value="新建施工计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-1" value="新建施工计划" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-2" target="JRAGMGcHB1foBFWkhMCB-4">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-2" target="JRAGMGcHB1foBFWkhMCB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-2" value="主站请点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-2" value="主站请点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="515" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-4" target="JRAGMGcHB1foBFWkhMCB-15">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-4" target="JRAGMGcHB1foBFWkhMCB-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-4" value="辅站请点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-4" value="辅站请点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-6" value="停送电" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-6" value="停送电" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-7" target="JRAGMGcHB1foBFWkhMCB-1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-7" target="JRAGMGcHB1foBFWkhMCB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-7" value="动火令申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-7" value="动火令申请" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-10" target="JRAGMGcHB1foBFWkhMCB-6">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-10" target="JRAGMGcHB1foBFWkhMCB-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-10" value="供电工作票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-10" value="供电工作票" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-11" target="JRAGMGcHB1foBFWkhMCB-10">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-11" target="JRAGMGcHB1foBFWkhMCB-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-11" target="JRAGMGcHB1foBFWkhMCB-1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JRAGMGcHB1foBFWkhMCB-11" target="JRAGMGcHB1foBFWkhMCB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-11" value="冲突检测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-11" value="冲突检测" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="505" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JRAGMGcHB1foBFWkhMCB-15" target="JRAGMGcHB1foBFWkhMCB-17">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRAGMGcHB1foBFWkhMCB-15" target="JRAGMGcHB1foBFWkhMCB-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-15" value="辅站消点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-15" value="辅站消点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JRAGMGcHB1foBFWkhMCB-17" value="主站消点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JRAGMGcHB1foBFWkhMCB-17" value="主站消点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Quti2Qj2DMujpB_DEEGS" name="生成施工计划">
+    <mxGraphModel dx="977" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
