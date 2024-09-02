@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Quti2Qj2DMujpB_DEEGS" name="生成施工计划">
-    <mxGraphModel dx="3554" dy="1030" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3771" dy="1144" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,11 +269,6 @@
         </mxCell>
         <mxCell id="HgoQfJDckl3HgRg3gbun-73" value="回滚事物" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="226" y="788" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HgoQfJDckl3HgRg3gbun-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HgoQfJDckl3HgRg3gbun-80">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1089.9047800699868" y="1018" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="HgoQfJDckl3HgRg3gbun-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HgoQfJDckl3HgRg3gbun-80">
           <mxGeometry relative="1" as="geometry">
