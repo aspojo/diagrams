@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Quti2Qj2DMujpB_DEEGS" name="生成施工计划">
-    <mxGraphModel dx="3789" dy="-234" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3995" dy="-117" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,8 +317,49 @@
         <mxCell id="IEMLdIlgXdMA3LJQUx6i-134" value="获取供电分区对应冲突检测规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1755" y="2792" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-136" target="IEMLdIlgXdMA3LJQUx6i-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IEMLdIlgXdMA3LJQUx6i-136" value="获取影响供电分区对应冲突检测规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1755" y="2880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-138" target="IEMLdIlgXdMA3LJQUx6i-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-138" value="根据以上找到的冲突规则涉及到的工作区域和供电分区查询存在冲突的施工计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="2968" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-140" target="IEMLdIlgXdMA3LJQUx6i-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-144" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IEMLdIlgXdMA3LJQUx6i-143">
+          <mxGeometry x="-0.108" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-140" target="IEMLdIlgXdMA3LJQUx6i-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-140" value="存在冲突" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1735" y="3056" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-142" target="IEMLdIlgXdMA3LJQUx6i-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-142" value="返回冲突详情" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="3181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-149" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="3289" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-151" target="IEMLdIlgXdMA3LJQUx6i-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-151" value="返回null" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1597" y="3181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-154" value="冲突检测流程" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1225" y="2442" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
