@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Quti2Qj2DMujpB_DEEGS" name="生成施工计划">
-    <mxGraphModel dx="4309" dy="63" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3789" dy="-234" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,32 +379,71 @@
             <mxPoint x="-1551" y="2596" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-158" target="IEMLdIlgXdMA3LJQUx6i-159">
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-183" value="作业区域冲突检测" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1166" y="2522" width="186" height="885" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-158" target="IEMLdIlgXdMA3LJQUx6i-159">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-158" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1309" y="2433" width="120" height="80" as="geometry" />
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-158" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="33" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-169" target="IEMLdIlgXdMA3LJQUx6i-163">
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-169" target="IEMLdIlgXdMA3LJQUx6i-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-159" target="IEMLdIlgXdMA3LJQUx6i-169">
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-159" target="IEMLdIlgXdMA3LJQUx6i-169">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-159" value="找到当前计划关联的作业区域id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1309" y="2603" width="120" height="60" as="geometry" />
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-159" value="找到当前计划关联的作业区域id" style="whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="149" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEMLdIlgXdMA3LJQUx6i-163" target="IEMLdIlgXdMA3LJQUx6i-167">
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-163" target="IEMLdIlgXdMA3LJQUx6i-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-163" value="作业区域是否重合" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1289" y="2733" width="80" height="80" as="geometry" />
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-171" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IEMLdIlgXdMA3LJQUx6i-168">
+          <mxGeometry x="-0.0268" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-167" value="根据作业区域状态查出冲突检查规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1309" y="2903" width="120" height="60" as="geometry" />
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-163" target="IEMLdIlgXdMA3LJQUx6i-178">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEMLdIlgXdMA3LJQUx6i-169" value="找到其它有效计划的作业区域id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1109" y="2603" width="120" height="60" as="geometry" />
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-163" value="作业区域是否重合" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="334" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-167" target="IEMLdIlgXdMA3LJQUx6i-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-167" value="根据重叠作业区域状态查出冲突检查规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-169" value="找到其它有效计划的作业区域id" style="whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-172" target="IEMLdIlgXdMA3LJQUx6i-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzytolMhCwNDY7LYteh_-1" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IEMLdIlgXdMA3LJQUx6i-175">
+          <mxGeometry x="-0.0789" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-172" target="IEMLdIlgXdMA3LJQUx6i-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-172" value="相同作业区域的多个状态值之间是否冲突" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IEMLdIlgXdMA3LJQUx6i-183" source="IEMLdIlgXdMA3LJQUx6i-174" target="IEMLdIlgXdMA3LJQUx6i-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89" y="888" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-174" value="返回冲突" style="whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="699" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEMLdIlgXdMA3LJQUx6i-178" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IEMLdIlgXdMA3LJQUx6i-183">
+          <mxGeometry x="29" y="790" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
