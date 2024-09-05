@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Quti2Qj2DMujpB_DEEGS" name="生成施工计划">
-    <mxGraphModel dx="3995" dy="-88" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3862" dy="-167" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,6 +511,15 @@
         </mxCell>
         <mxCell id="PCAzmV7SkHBj_5VvdjHa-8" value="工作区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PCAzmV7SkHBj_5VvdjHa-24">
           <mxGeometry x="33" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PCAzmV7SkHBj_5VvdjHa-29" value="作业区域状态生成规则详解" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="1968" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PCAzmV7SkHBj_5VvdjHa-30" value="A3主所优化" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="807" y="1968" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PCAzmV7SkHBj_5VvdjHa-32" value="主所与作业区域的关联关系当前系统是写死在代码中。&lt;div&gt;&lt;br&gt;需要修改站点信息表，添加是否主所字段，然后配置关联的工作区域&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PCAzmV7SkHBj_5VvdjHa-30">
+          <mxGeometry x="19" y="50" width="162" height="94" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
