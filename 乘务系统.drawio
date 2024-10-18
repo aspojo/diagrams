@@ -7,7 +7,7 @@
         <mxCell id="kFYELQRQKJDRdb7ee6oj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFYELQRQKJDRdb7ee6oj-2" target="kFYELQRQKJDRdb7ee6oj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kFYELQRQKJDRdb7ee6oj-2" value="时刻表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="kFYELQRQKJDRdb7ee6oj-2" value="时刻表&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;定义每个车次的运行时刻&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kFYELQRQKJDRdb7ee6oj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFYELQRQKJDRdb7ee6oj-3" target="kFYELQRQKJDRdb7ee6oj-7">
