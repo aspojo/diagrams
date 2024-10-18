@@ -22,8 +22,20 @@
         <mxCell id="kFYELQRQKJDRdb7ee6oj-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;交路参数设置&lt;/font&gt;&lt;/b&gt;&lt;div&gt;（包含便乘、顶饭圈、交接班时间点出退勤提前量、高峰交路、备班轮乘、回库接出站）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="360" width="120" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="kFYELQRQKJDRdb7ee6oj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFYELQRQKJDRdb7ee6oj-7" target="kFYELQRQKJDRdb7ee6oj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kFYELQRQKJDRdb7ee6oj-7" value="生成交路" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kFYELQRQKJDRdb7ee6oj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFYELQRQKJDRdb7ee6oj-9" target="kFYELQRQKJDRdb7ee6oj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kFYELQRQKJDRdb7ee6oj-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;轮班管理&lt;/font&gt;&lt;/b&gt;&lt;div&gt;给每个日期设置早班、白班、晚班、休班对应的司机组（一组、二组、三组、四组）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="485" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kFYELQRQKJDRdb7ee6oj-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;生成班表&lt;/font&gt;&lt;/b&gt;&lt;div&gt;对给定的日期区间，为个交路安排相应的司机&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="680" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
